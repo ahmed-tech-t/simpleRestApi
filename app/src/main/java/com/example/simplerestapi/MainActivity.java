@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         ApiInterface apiInterface = retrofit.create(ApiInterface.class);
 
-        Call<Post> call = apiInterface.getPost();
+        Call<Post> call = apiInterface.getPost(2);
         call.enqueue(new Callback<Post>() {
             @Override
             public void onResponse(Call<Post> call, Response<Post> response) {
-                body.setText(response.body().getBody());
+                body.setText(response.body().getTitle());
             }
             @Override
             public void onFailure(Call<Post> call, Throwable t) {
