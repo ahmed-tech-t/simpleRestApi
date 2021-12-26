@@ -2,11 +2,17 @@ package com.example.simplerestapi;
 
 public class Post {
 
+
+
     String userId;
     String id ;
     String title;
     String body ;
-
+    public Post(String userId, String title, String body) {
+        this.userId = userId;
+        this.title = title;
+        this.body = body;
+    }
     public Post(String userId, String id, String title, String body) {
         this.userId = userId;
         this.id = id;

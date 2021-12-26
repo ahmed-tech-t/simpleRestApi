@@ -27,16 +27,18 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         ApiInterface apiInterface = retrofit.create(ApiInterface.class);
 
-        Call<List<Post>> call = apiInterface.getPost(2);
-        call.enqueue(new Callback<List<Post>>() {
-            @Override
-            public void onResponse(Call<List<Post>> call, Response<List<Post>> response) {
-                body.setText(response.body().get(0).getTitle());
-            }
-            @Override
-            public void onFailure(Call<List<Post>> call, Throwable t) {
-                body.setText(t.getMessage());
-            }
-        });
+        Post post =new Post("1","post code","this is post code");
+        Call<Post> call = apiInterface.storePost(post);
+       call.enqueue(new Callback<Post>() {
+           @Override
+           public void onResponse(Call<Post> call, Response<Post> response) {
+               body.setText(response.body().getTitle());
+           }
+
+           @Override
+           public void onFailure(Call<Post> call, Throwable t) {
+            body.setText(t.getMessage());
+           }
+       });
     }
 }
