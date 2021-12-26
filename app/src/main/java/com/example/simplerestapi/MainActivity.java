@@ -1,10 +1,8 @@
 package com.example.simplerestapi;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -34,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             }
             @Override
             public void onFailure(Call<Post> call, Throwable t) {
-
+                body.setText(t.getMessage());
             }
         });
     }
