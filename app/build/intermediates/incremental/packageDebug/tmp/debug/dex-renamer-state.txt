@@ -1,4 +1,4 @@
-#Mon Dec 27 00:14:33 MSK 2021
+#Mon Dec 27 00:19:15 MSK 2021
 base.2=E\:\\android\\android\\android Projects\\testApps\\SimpleRestApi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
 path.2=5/classes.dex
 base.1=E\:\\android\\android\\android Projects\\testApps\\SimpleRestApi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
