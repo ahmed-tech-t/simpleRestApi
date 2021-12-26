@@ -1,0 +1,9 @@
+com/example/simplerestapi/Post.java
+ com.example.simplerestapi.Post
+com/example/simplerestapi/BuildConfig.java
+ com.example.simplerestapi.BuildConfig
+com/example/simplerestapi/ApiInterface.java
+ com.example.simplerestapi.ApiInterface
+com/example/simplerestapi/MainActivity.java
+ com.example.simplerestapi.MainActivity
+ com.example.simplerestapi.MainActivity$1

@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.simplerestapi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:4:1-62
+11-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:4:18-60
+12
+13    <application
+13-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:5:5-22:19
+14        android:allowBackup="true"
+14-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\ahmed\.gradle\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.SimpleRestApi"
+22-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:12:9-51
+23        android:usesCleartextTraffic="true" >
+23-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:7:9-44
+24        <activity
+24-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:13:9-21:20
+25            android:name="com.example.simplerestapi.MainActivity"
+25-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:14:13-41
+26            android:exported="true" >
+26-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:15:13-36
+27            <intent-filter>
+27-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:17:17-69
+28-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:19:17-77
+30-->E:\android\android\android Projects\testApps\SimpleRestApi\app\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+36            android:authorities="com.example.simplerestapi.androidx-startup"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+37            android:exported="false" >
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+38            <meta-data
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+40                android:value="androidx.startup" />
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahmed\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+41            <meta-data
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahmed\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahmed\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+43                android:value="androidx.startup" />
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahmed\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+44        </provider>
+45    </application>
+46
+47</manifest>
